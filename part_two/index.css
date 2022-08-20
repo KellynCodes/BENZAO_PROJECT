@@ -1,0 +1,19 @@
+.tb {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+  height: 10rem;
+}
+
+.mr {
+  margin-right: 2rem;
+}
+.ml {
+  margin-left: 2rem;
+}
+
+.tb td input:focus {
+  box-shadow: none;
+  border: 2px solid var(--primary_color);
+}
